@@ -1,0 +1,24 @@
+lead_desc: This is a lead description about my skills.
+desc: >
+  I'll write this section maybe later...
+skills:
+  - i: python
+    p: 95
+    t: Python
+    l: https://www.python.org/
+  - i: html5
+    p: 90
+    t: HTML5
+    l: https://en.wikipedia.org/wiki/HTML5
+  - i: java
+    p: 85
+    t: Java
+    l: \#
+  - i: js
+    p: 80
+    t: JavaScript
+    l: \#
+  - i: linux
+    p: 90
+    t: Linux
+    l: \#
