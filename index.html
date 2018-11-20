@@ -8,21 +8,23 @@ layout: default
 <section id="intro">
   <div class="container">
     <div class="row">
-      <div class="col-12 kh-intro-bottom">
-        <h1 class="display-1">{{ site.data.intro.name }}</h1>
-        <p class="lead">{{ site.data.intro.desc }}</p>
-        <hr class="my-4">
-        <nav class="navbar navbar-expand navbar-light">
-          <ul class="navbar-nav mr-auto">
-            {% for s in site.data.intro.socials %}
-            <li class="nav-item">
-              <a href="{{ s.l }}" class="nav-link" target="_blank">
-                <i class="fab fa-{{ s.i }} fa-lg fa-fw"></i>
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </nav>
+      <div class="col-12">
+        <div class="kh-intro-bottom">
+          <h1 class="display-1">{{ site.data.intro.name }}</h1>
+          <p class="lead">{{ site.data.intro.desc }}</p>
+          <hr class="my-4">
+          <nav class="navbar navbar-expand navbar-light">
+            <ul class="navbar-nav mr-auto">
+              {% for s in site.data.intro.socials %}
+              <li class="nav-item">
+                <a href="{{ s.l }}" class="nav-link" target="_blank">
+                  <i class="fab fa-{{ s.i }} fa-lg fa-fw"></i>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   </div>

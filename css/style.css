@@ -13,6 +13,7 @@ section#intro {
 
 #intro .kh-intro-bottom {
     position: absolute;
+    width: 100%;
     bottom: 10%;
 }
 
@@ -53,6 +54,16 @@ section#intro {
 
     #intro .lead {
         font-size: 1.1rem;
+    }
+
+    section#intro div.col-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .kh-intro-bottom {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
