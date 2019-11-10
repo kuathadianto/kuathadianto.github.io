@@ -6,7 +6,7 @@
             $textRotator = $('.text-rotator', $elem),
             totalItems = $('.item', $textRotator).length,
             currentIndex = 0,
-            time = 5; // Time in seconds
+            time = 2; // Time in seconds
         
         var $progressBar,
             $bar,
