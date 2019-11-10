@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.data.personal_information.forename }} {{ site.data.personal_information.surname }}</title>
+    <meta name="description" content="{{ site.data.site_settings.description }}" />
+    <meta name="keywords" content="{{ site.data.site_settings.keywords }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Loading Bootstrap CSS -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Loading Font Icons -->
+    <link href="assets/plugins/icomoon/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Include all css plugins (below), or include individual files as needed -->
+    <link href="assets/plugins/animate-css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/flexslider/flexslider.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/chartist-js/chartist.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/flickity/flickity.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Main CSS -->
+    <link href="assets/css/styles.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Color CSS -->
+    <!--<link href="assets/css/colors/blue.css" rel="stylesheet" type="text/css">-->
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 8]>
+    <script src="assets/plugins/modernizr/modernizr.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- PRELOADER START -->
+    <div id="jSplash" class="background-gray-light position-fixed top-0 width-100 height-100">
+        <div class="background-grid">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
+        <!-- //.background-grid -->
+
+        <div class="rect">
+            <div class="logo">
+                <span class="display-inline-block font-family-alt text-center title-extra-large">
+                    Loading...
+                </span>
+            </div>
+            <!-- //.logo -->
+        </div>
+        <!-- //.rect -->
+    </div>
+    <!-- //PRELOADER END -->
+
+    <!-- BORDER SITE START -->
+    <div class="border-site bs-top"></div>
+    <div class="border-site bs-right"></div>
+    <div class="border-site bs-left"></div>
+    <div class="border-site bs-bottom"></div>
+    <!-- //BORDER SITE END -->
+
+    {% include navigation.html %}
+
+    <!-- HEADER START -->
+    <header class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="assets/images/logo.png" alt="logo" class="img-responsive" />
+            </a>
+        </div>
+        <!-- //.logo -->
+    </header>
+    <!-- //HEADER END -->
+
+    <!-- BACKGROUND GRID START -->
+    <div class="background-grid">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+    </div>
+    <!-- //BACKGROUND GRID END -->
+
+    {{ content }}
+
+    <!-- Loading jQuery -->
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+
+    <!-- Loading Bootstrap JS -->
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Include all js plugins (below) -->
+    <script src="assets/plugins/debouncer/debouncer.js"></script>
+    <script src="assets/plugins/easing/jquery.easing.min.js"></script>
+    <script src="assets/plugins/skrollr/skrollr.min.js"></script>
+    <script src="assets/plugins/chartist-js/chartist.min.js"></script>
+    <script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script src="assets/plugins/tiny-scrollbar/jquery.tinyscrollbar.min.js"></script>
+    <script src="assets/plugins/flickity/flickity.pkgd.min.js"></script>
+
+    <!-- Preloader JS -->
+    <script src="assets/plugins/jpreloader/js/jpreloader.min.js"></script>
+
+    <!-- Loading Theme JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/text-rotator.js"></script>
+    <script src="assets/js/project.js"></script>
+</body>
+
+</html>

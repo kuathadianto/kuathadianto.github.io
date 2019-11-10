@@ -1,0 +1,70 @@
+<!-- SECTION - HERO START -->
+<section id="hero"
+    class="section hero background-cover background-gray background-position-center height-100 no-padding-tb">
+    <div class="section-content display-table width-100 height-100">
+        <div class="container display-table-cell vertical-align-middle text-center">
+            <div class="skrollable skrollable-between" data-0="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+                data-top-bottom="opacity: 0; transform: translate3d(0px, 300%, 0px);">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="hero-title display-inline-block position-relative">
+                            <span>welcome</span>
+
+                            <h2 class="font-family-alt title-extra-large-4">
+                                Hi! I am <span class="text-color">{{ site.data.personal_information.forename }}</span>.
+                            </h2>
+                        </div>
+                        <!-- //.hero-title -->
+                    </div>
+                    <!-- //.col-md-12 -->
+                </div>
+                <!-- //.row -->
+
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+                        <div class="text-rotator margin-1 no-margin-rl">
+                            <div class="text-rotator-item">
+                                {% for trait in site.data.personal_information.traits %}
+                                    <div class="item {% if trait == site.data.personal_information.traits[0] %}active{% endif %}">
+                                        <span style="display: inline-table;"
+                                            class="font-family-alt padding-1-5 no-padding-tb text-uppercase title-extra-large-2">
+                                            {{ trait }}
+                                        </span>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            <!-- //.text-rotator-item -->
+                        </div>
+                        <!-- //.text-rotator -->
+                    </div>
+                    <!-- //.col-xs-10 -->
+                </div>
+                <!-- //.row -->
+            </div>
+            <!-- //.skrollable -->
+        </div>
+        <!-- //.container -->
+    </div>
+    <!-- //.section-content -->
+
+    <div class="scroll-down skrollable skrollable-between width-100"
+        data-0="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        data-top-bottom="opacity: 0; transform: translate3d(0px, 300%, 0px);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-scroll text-center">
+                        <a href="#introduction"><i class="icon-Mouse-2 icon-medium"></i></a>
+                        <span class="display-block text-uppercase">Scroll Down</span>
+                    </div>
+                    <!-- //.page-scroll -->
+                </div>
+                <!-- //.col-md-12 -->
+            </div>
+            <!-- //.row -->
+        </div>
+        <!-- //.container -->
+    </div>
+    <!-- //.scroll-down -->
+</section>
+<!-- //SECTION - HERO END -->

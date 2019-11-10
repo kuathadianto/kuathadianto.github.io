@@ -1,55 +1,12 @@
-<footer>
-  {% for p in site.data.footer.paragraphs %}
-  <p>{{ p }}</p>
-  {% endfor %}
-</footer>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-  crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-  crossorigin="anonymous"></script>
-
-<!--
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<!-- FOOTER START -->
+<footer class="section footer background-gray-light">
+    <div style="height: unset; line-height: unset; padding-top: 15px; padding-bottom: 15px;" class="copyright background-gray position-absolute text-center width-100">
+        <span class="font-family-alt letter-spacing-1 line-height-none text-small">
+            <span style="display: inline-block;">Copyright &copy; {{ site.data.personal_information.forename }} {{ site.data.personal_information.surname }}.</span>
+            <span style="display: inline-block;">This site was last updated at {{ "now" | date: "%d-%m-%Y %H:%M" }}.</span>
+            <span style="display: inline-block;">All rights reserved.</span>
+        </span>
     </div>
-
-  </div>
-
+    <!-- //.copyright -->
 </footer>
--->
+<!-- //FOOTER END -->

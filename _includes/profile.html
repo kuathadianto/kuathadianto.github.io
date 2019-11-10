@@ -1,0 +1,134 @@
+<!-- SECTION - PROFILE START -->
+<section id="profile" class="section background-gray-light no-padding-bottom">
+    <div class="section-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="
+                            {% if site.data.personal_information.photo %}
+                                assets/images/{{ site.data.personal_information.photo }}
+                            {% else %}
+                                assets/images/profile.jpg
+                            {% endif %}" alt="profile image" class="img-responsive"/>
+
+                            <div class="profile-btn-download">
+                                <a style="cursor: unset;" class="btn btn-medium background-color font-family-alt text-large text-uppercase text-white">
+                                    {{ site.data.personal_information.forename }} {{ site.data.personal_information.surname }}
+                                </a>
+                            </div>
+                            <!-- //.profile-btn-download -->
+                        </div>
+                        <!-- //.profile-image -->
+
+                        <div class="profile-description">
+                            <div class="item display-table text-right">
+                                <span class="circle on-right"></span>
+
+                                <div class="display-table-cell vertical-align-middle">
+                                    <h4 class="font-family-alt no-letter-spacing title-medium">This {% if site.data.personal_information.gender %}
+                                        {{ site.data.personal_information.gender }}
+                                    {% else %}
+                                        Girl
+                                    {% endif %}</h4>
+                                    <h5 class="font-weight-400 text-extra-large">{% if site.data.personal_information.character_desc_left %}
+                                        {{ site.data.personal_information.character_desc_left }}
+                                    {% else %}
+                                        An idea maker, a visionary,<br>a creative genius.
+                                    {% endif %}</h5>
+                                </div>
+                                <!-- //.display-table-cell -->
+                            </div>
+                            <!-- //.item -->
+
+                            <div class="item display-table text-left">
+                                <span class="circle on-left"></span>
+
+                                <div class="display-table-cell vertical-align-middle">
+                                    <h4 class="font-family-alt no-letter-spacing title-medium">This {% if site.data.personal_information.gender %}
+                                        {{ site.data.personal_information.gender }}
+                                    {% else %}
+                                        Girl
+                                    {% endif %}</h4>
+                                    <h5 class="font-weight-400 text-extra-large">{% if site.data.personal_information.character_desc_top_r %}
+                                        {{ site.data.personal_information.character_desc_top_r }}
+                                    {% else %}
+                                        Forward-thinking<br>and ambitious.
+                                    {% endif %}</h5>
+                                </div>
+                                <!-- //.display-table-cell -->
+                            </div>
+                            <!-- //.item -->
+
+                            <div class="item display-table text-left">
+                                <span class="circle on-left"></span>
+
+                                <div class="display-table-cell vertical-align-middle">
+                                    <h4 class="font-family-alt no-letter-spacing title-medium">This {% if site.data.personal_information.gender %}
+                                        {{ site.data.personal_information.gender }}
+                                    {% else %}
+                                        Girl
+                                    {% endif %}</h4>
+                                    <h5 class="font-weight-400 text-extra-large">{% if site.data.personal_information.character_desc_bottom_r %}
+                                        {{ site.data.personal_information.character_desc_bottom_r }}
+                                    {% else %}
+                                        She's a rule breaker,<br>and exceptional communicator.
+                                    {% endif %}</h5>
+                                </div>
+                                <!-- //.display-table-cell -->
+                            </div>
+                            <!-- //.item -->
+                        </div>
+                        <!-- //.profile-description -->
+                    </div>
+                    <!-- //.profile -->
+                </div>
+                <!-- //.col-sm-6 -->
+            </div>
+            <!-- //.row -->
+
+            <div class="profile-chart margin-9 no-margin-bottom no-margin-rl">
+                <div class="row">
+                    {% for value in site.data.personal_information.core_values %}
+                        <div class="item col-xs-12 col-sm-3">
+                            <span class="font-family-alt text-uppercase" data-percent="{{ value.percentage }}">{{ value.name }}</span>
+                        </div>
+                    {% endfor %}
+                    <!--
+                    <div class="item col-xs-12 col-sm-3">
+                        <span class="font-family-alt text-uppercase" data-percent="40">Honest</span>
+                    </div>
+                    -->
+                    <!-- //.item -->
+
+                    <!--
+                    <div class="item col-xs-12 col-sm-3">
+                        <span class="font-family-alt text-uppercase" data-percent="30">Optimistic</span>
+                    </div>
+                    -->
+                    <!-- //.item -->
+
+                    <!--
+                    <div class="item col-xs-12 col-sm-3">
+                        <span class="font-family-alt text-uppercase" data-percent="25">Hard Working</span>
+                    </div>
+                    -->
+                    <!-- //.item -->
+
+                    <!--
+                    <div class="item col-xs-12 col-sm-3">
+                        <span class="font-family-alt text-uppercase" data-percent="5">Sensitive</span>
+                    </div>
+                    -->
+                    <!-- //.item -->
+                </div>
+                <!-- //.row -->
+            </div>
+            <!-- //.profile-chart -->
+        </div>
+        <!-- //.container -->
+    </div>
+    <!-- //.section-content -->
+</section>
+<!-- //SECTION - PROFILE END -->

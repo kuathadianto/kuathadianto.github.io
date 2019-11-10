@@ -1,0 +1,50 @@
+forename: 'Kuat'
+surname: 'Hadianto'
+gender: 'Guy'
+photo: 'kuath.jpg'
+traits:
+  - 'Software Engineer'
+  - 'Arrow Stomper'
+  - 'Food Enthusiast'
+character_desc_left: 'An idea maker, a visionary,<br>a creative genius.'
+character_desc_top_r: 'A deep thinker,<br>problem-solver analyst.'
+character_desc_bottom_r: 'Will try to make you laugh<br>with his cringy jokes.'
+core_values: # should be four, no less, no more!
+  - name: 'Bold'
+    percentage: 70
+  - name: 'Optimism'
+    percentage: 80
+  - name: 'Loyal'
+    percentage: 90
+  - name: 'Handsome'
+    percentage: 101
+introduction: >
+  <p class="font-weight-300 title-extra-large-3">
+  I'm <span class="font-weight-400">Kuat</span> - a <span class="text-highlight">software engineer</span> 
+  from Bandung, Indonesia, living in Aachen, Germany. I'm a very 
+  <span class="font-weight-400">passionate</span> programmer and
+  always having a <span class="font-weight-400">big curiosity</span> for new technologies.
+  </p>
+
+  <p class="font-weight-300 margin-3-5 no-margin-bottom no-margin-rl title-extra-large-3">
+  I'm currently <span class="font-weight-400">working</span> for
+  <a href="https://www.bettermobility.de/" target="_blank" class="text-highlight">BetterMobility</a> as 
+  <a style="text-decoration: underline;" href="https://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank">full stack
+  developer</a> developing <a href="https://www.regioit.de/produkte-leistungen/energy-mobility/produkte-loesungen/mobility-broker/" 
+  target="_blank" class="text-highlight">MobilityBroker</a>; a <a href="https://en.wikipedia.org/wiki/White-label_product" 
+  target="_blank" class="text-highlight">white label</a>, 
+  <span class="font-weight-400">all-in-one mobility solution</span> app.
+  </p>
+
+  <p class="font-weight-300 margin-3-5 no-margin-bottom no-margin-rl title-extra-large-3">
+  If I'm not working, you'll find me code for fun, trying some
+  recipes in my kitchen or <span class="font-weight-400">stomping</span> some arrows 
+  in a game called <a href="#" class="text-highlight">DDR</a> (Dance Dance Revolution).
+  </p>
+socials:
+  - icon: instagram
+    link: 'https://www.instagram.com/kuathadianto/'
+  - icon: twitter
+    link: 'https://twitter.com/kuathadianto/'
+  - icon: github
+    link: 'https://github.com/kuathadianto'
