@@ -11,11 +11,11 @@ character_desc_top_r: 'A deep thinker,<br>problem-solver analyst.'
 character_desc_bottom_r: 'Will try to make you laugh<br>with his cringy jokes.'
 core_values: # should be four, no less, no more!
   - name: 'Bold'
-    percentage: 70
+    percentage: 97
   - name: 'Optimism'
-    percentage: 80
+    percentage: 98
   - name: 'Loyal'
-    percentage: 90
+    percentage: 99
   - name: 'Handsome'
     percentage: 101
 introduction: >
